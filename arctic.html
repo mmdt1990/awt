@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Arctic Wonderland tours</title>
+    <meta name="description" content=" Arctic Wonderland Tours offers amazing and breathtaking stay overlooking the town Tasiilaq or amidst beautiful landscape in Kulusuk.">
+    <meta name="author" content="Martina M. D. Tay">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT -->
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|Viga');
+
+    </style>
+    <!--    stylesheets-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <!-- my very own stylesheet -->
+    <link rel="stylesheet" href="css/awt_style.css">
+</head>
+
+<body>
+    <nav class="topnav" id="myTopnav">
+        <a href="#hotels">Hotels</a>
+        <a href="#tours">Tours</a>
+        <a href="#faq">FAQ</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+    <a href="#home"><img src="img/awt_logo.png" class="logo" alt="AWT-logo"> </a>
+
+    <header class="headerWeb">
+        <div class="headerImage"> </div>
+        <div class="headerText">
+            <p class="text">Tasiilaq & Kulusuk is like no other place in
+                Greenland or the arctic and just 110 minutes
+                of flight time from Reykjavik, Iceland.
+                Arctic Wonderland Tours brings you to the
+                edge of the world and our comfortable hotels.</p>
+            <a href="https://www.booking.com/hotel/gl/angmagssalik.da.html?aid=304142;label=gen173nr-1DCBcoggI46AdIM1gEaD2IAQGYAQa4ARfIAQ_YAQPoAQGIAgGoAgM;sid=dbe639640a17dac40e88018766571f5d" class="btn firstBtn">Book now!</a>
+        </div>
+    </header>
+    <header class="headerMobile">
+        <img src="img/awt/headerM.png" alt="View from Angmagssalik">
+    </header>
+
+    <div class="card-group">
+        <div class="card tours">
+            <div class="card-body">
+                <img src="img/boatIcon.png" class="icon" alt="Boat icon">
+                <h5 class="card-title">Tours</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a.</p>
+                <a href="http://www.arcticwonder.com/tours/" class="btn">Read more</a>
+            </div>
+        </div>
+        <div class="card hotels">
+            <div class="card-body">
+                <img src="img/hotelIcon.png" class="icon" alt="Hotel icon">
+                <h5 class="card-title">Hotels</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <a href="http://www.arcticwonder.com/hotels/" class="btn">Read more</a>
+            </div>
+        </div>
+        <div class="card info">
+            <div class="card-body">
+                <img src="img/infoIcon.png" class="icon" alt="More information icon">
+                <h5 class="card-title">Info</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                <a href="http://www.arcticwonder.com/about-us/" class="btn">Read more</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-groupMobile">
+        <a href="http://www.arcticwonder.com/tours/">
+            <div class="cardMobile">
+                <div class="card-bodyMobile">
+                    <img src="img/boatButton.png" class="btnMobile" alt="Boat icon">
+                </div>
+            </div>
+        </a>
+        <a href="http://www.arcticwonder.com/hotels/">
+            <div class="cardMobile">
+                <div class="card-bodyMobile">
+                    <img src="img/hotelButton.png" class="btnMobile" alt="Hotel icon">
+                </div>
+            </div>
+        </a>
+        <a href="http://www.arcticwonder.com/about-us/">
+            <div class="cardMobile">
+                <div class="card-bodyMobile">
+                    <img src="img/infoButton.png" class="btnMobile" alt="More information icon">
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="webcamSection">
+        <img class="webcam" src="img/awt/view.png" alt="View from Hotel Angmagssalik right now">
+        <div class="textPlace">
+            <h3 class="heading">The view from Hotel Angmagssalik</h3>
+            <h4 class="subHeading">Last updated:</h4>
+            <h5 class="updates">Wednesday the 02.01.19 at 10:22AM</h5>
+        </div>
+    </div>
+
+    <div class="webcamSectionMobile">
+        <img class="webcamMobile" src="img/awt/view.png" alt="View from Hotel Angmagssalik right now">
+        <div class="textPlaceMobile">
+            <h3 class="headingMobile">The view from Hotel Angmagssalik</h3>
+            <h4 class="subHeadingMobile">Last updated:</h4>
+            <h5 class="updatesMobile">Wednesday the 02.01.19 at 10:22AM</h5>
+        </div>
+    </div>
+
+    <div class="infographic">
+        <h2>Show me how to get to:</h2>
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'tasiilaq')">Hotel Angmagssalik</button>
+            <button class="tablinks" onclick="openCity(event, 'kulusuk')">Hotel Kulusuk</button>
+        </div>
+
+        <div id="tasiilaq" class="tabcontent">
+            <img src="img/awt/infographicWeb.png" class="infographicWebTas" alt="Infographic of how to get to Hotel Angmagssalik">
+            <img src="img/awt/infographicTasiilaq.png" class="infographicMobile" alt="Infographic of how to get to Hotel Angmagssalik">
+        </div>
+
+        <div id="kulusuk" class="tabcontent">
+            <img src="img/awt/infographicWebKulusuk.png" class="infographicWebKus" alt="Infographic of how to get to Hotel Kulusuk">
+            <img src="img/awt/infographicTasiilaq.png" class="infographicMobile" alt="Infographic of how to get to Hotel Kulusuk">
+        </div>
+    </div>
+
+    <div class="some">
+        <div class="instagram">
+            <h2 class="heading">Follow us on Instagram and get weekly updates</h2>
+            <section id="myInstagramFeed">
+            </section>
+        </div>
+        <div class="fb">
+            <h2 class="heading">And like our page on Facebook</h2>
+            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D10156809278014378%26set%3Da.10156282508094378%26type%3D3%26theater&width=500&show_text=true&appId=164463041052616&height=250" width="250" height="450" style="border:none;overflow:hidden" allow="encrypted-media"></iframe>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="adress">
+            <h3>Arctic Wonderland Tours A/S
+                <br>P.O.box 511
+                <br>3913 Tasiilaq
+                <br>GREENLAND
+            </h3>
+        </div>
+        <div class="bottomMiddle">
+            <a href="index.html">
+                <img src="img/awt_logo.png" class="bottomLogo" alt="AWT logo">
+            </a>
+            <ul class="bottomNav">
+                <li><a href="#hotels">Hotels</a></li>
+                <li><a href="#tours">Tours</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+        <div class="someIcons">
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+    <!-- End of Document  -->
+    <!-- instagram js -->
+    <script src="js/instafeed.min.js"></script>
+
+    <!--    Her er min egen JS :)-->
+    <script src="js/awt_scriptMin.js"></script>
+</body>
+
+</html>

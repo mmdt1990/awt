@@ -1,0 +1,29 @@
+/* styleshiiit*/
+
+.headerMobile {
+    display: none;
+}
+
+.headerImage {
+    height: 100vh;
+    background-image: url(../img/awt/finalHeader.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.headerText {
+    background-color: rgba(13, 57, 109, .7);
+    width: 350px;
+    padding: 35px;
+    margin: -250px 0px 110px 30px;
+}
+
+.text {
+    color: white;
+}
+
+.firstBtn {
+    margin-left: 250px;
+    border: 1px solid var(--secColour);
+}
